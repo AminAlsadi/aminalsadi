@@ -1,0 +1,8 @@
+Room 3: Train-Test // Split From Scratch
+Split sensor data into two sets manually. Use a 60-40 ratio.
+data = [2.3 , 3.1 , 4.5 , 5.6 , 7.2]
+size_60 = ...
+data_60 = data [...]
+data_40 = data [...]
+print ( f " Data_60 : { data_60 }")
+print ( f " Data_40 : { data_40 }")
