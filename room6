@@ -1,0 +1,10 @@
+Room 6: Classification - Student Performance Prediction
+Build a system to predict if a student will be a High Achiever,
+Pass, or Fail in the MI-class based on HW and exam scores.
+def classify_student ( homework_score , exam_score ) :
+...
+# Test cases
+print ( classify_student (90 , 92) ) # Output : High
+Achiever
+print ( classify_student (65 , 70) ) # Output : Pass
+print ( classify_student (55 , 58) ) # Output : Fail
