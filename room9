@@ -1,0 +1,10 @@
+Room 9: Data Normalization - Prepare Sensor Data for
+Comparison
+You have sensor data from diff. machines. The readings are
+on diff. scales, transform it to be consistent for comparison.
+def transform ( data ) :
+....
+# Sensor data with varying ranges
+sensor_data = [500 , 1200 , 3000 , 8000]
+normalized_data = transform ( sensor_data )
+print ( f " Normalized data : {...}")
