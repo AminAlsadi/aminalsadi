@@ -1,0 +1,10 @@
+Room 5: Unsupervised Learning - Clustering
+The factory wants to group similar machine readings to detect
+unusual patterns. Write a program to ”cluster” data based on
+proximity to a threshold.
+data = [3.1 , 2.9 , 5.4 , 6.2 , 1.9 , 5.7]
+threshold = 3.5
+cluster_1 = [ x for x in ... if ...]
+cluster_2 = [ x for x in ... if ...]
+print ( f " Cluster 1: { cluster_1 }")
+print ( f " Cluster 2: { cluster_2 }")
